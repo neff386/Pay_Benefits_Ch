@@ -1,0 +1,41 @@
+<html>
+
+<head>
+	
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Benefits Calulator Landing</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+        <link href="css/toastr.css" rel="stylesheet"/>
+	
+</head>
+
+<body>
+    <div class="jumbotron"> 
+    <h1>
+            Hello there welcome to your benefits portal
+    </h1>
+        <h2>
+            Please Enter the names of dependents below to calculate costs 
+        </h2>
+            <span>Your Name: <input type="text" id="empName"></span>
+        <div id='depDiv'>
+            <span class='depSpan'><input type="text"><a id="firstRemDep"class='removeDep'>-</a></span>
+            <a id='addDep'>add+</a>
+        </div>
+        <input type="submit" id="submit"/>
+    </div>
+</body>
+
+</html>
+
+<script src="{{site.baseurl}}/js/landing.js"></script>
+<script src="{{site.baseurl}}/js/jquery.min.js"></script>
+<script src="{{site.baseurl}}/js/toastr.js"></script>
